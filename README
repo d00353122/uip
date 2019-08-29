@@ -11,3 +11,8 @@ doc/   - Documentation
 lib/   - Library code used by some applications
 uip/   - uIP TCP/IP stack code
 unix/  - uIP as a user space process under FreeBSD or Linux
+
+uIP是专门为8位和16位控制器设计的一个非常小的TCP/IP栈。完全用C编写，因此可移植到各种不同的结构和操作系统上，
+一个编译过的栈可以在几KB ROM或几百字节RAM中运行。uIP中还包括一个HTTP服务器作为服务内容。
+
+许可：BSD许用证 http://dunkels.com/adam/uip/
